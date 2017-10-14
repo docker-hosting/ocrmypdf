@@ -1,1 +1,1 @@
-FROM pombeirp/ocr2pdf-watchdog
+FROM pombeirp/ocrmypdf-watchdog
