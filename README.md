@@ -6,7 +6,7 @@ Example usage in docker-compose file:
 ```
 services:
     ocr:
-        image: dockerhosting/ocr2pdf
+        image: dockerhosting/ocrmypdf
         container_name: ${OCR_CONTAINER}
         network_mode: none
         volumes:
