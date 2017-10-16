@@ -1,1 +1,3 @@
-FROM pombeirp/ocrmypdf-watchdog
+FROM jbarlow83/OCRmyPDF
+
+ENTRYPOINT ["/entrypoint.sh"]
