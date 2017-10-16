@@ -1,3 +1,3 @@
-FROM jbarlow83/OCRmyPDF
+FROM jbarlow83/ocrmypdf
 
 ENTRYPOINT ["/entrypoint.sh"]
