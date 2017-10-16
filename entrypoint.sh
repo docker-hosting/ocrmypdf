@@ -3,5 +3,5 @@
 while [ : ]
 do
     sleep $SLEEP
-    find . -name '/input/*.pdf' | parallel --tag -j 2 ocrmypdf $OCRMYPDF_OPTIONS '{}' '/output/{}'
+    find . -name '/input/*.pdf' | parallel --tag -j 2 ocrmypdf $OCRMYPDF_OPTIONS '{}' '{}'
 done
